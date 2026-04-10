@@ -1,5 +1,5 @@
-#Youjin Oh
-# #GitHub Repo: https://github.com/Youjin948/Sprite_Previewer.git
+#Author: Youjin Oh
+#GitHub Repo: https://github.com/Youjin948/Sprite_Previewer.git
 
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
