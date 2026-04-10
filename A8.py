@@ -79,7 +79,7 @@ class SpritePreview(QMainWindow):
         self.fps = value
         self.fps_value_label.setText(str(self.fps))
         if self.is_animating:
-            self.timer.setInterval(int(1000 / self.fps))
+            self.timer.setInterval(1000 // self.fps)
 
     def toggle_animation(self):
         if self.is_animating:
